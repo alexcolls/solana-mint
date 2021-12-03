@@ -129,4 +129,4 @@ npx ts-node metaplex/js/packages/cli/build/candy-machine-cli.js create_candy_mac
 
 
 
-
+fuck
