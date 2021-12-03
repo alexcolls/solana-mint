@@ -1,0 +1,6 @@
+[submodule "metaplex"]
+	path = metaplex
+	url = ./metaplex
+[submodule "candy-machine-mint"]
+	path = candy-machine-mint
+	url = ./candy-machine-mint
