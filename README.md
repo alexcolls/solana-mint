@@ -17,26 +17,6 @@ sudo cp bin/linux/metaplex /usr/local/bin   // include metaplex cli program to e
 
 metaplex upload ./assets --env devnet -k keypair.json_path
 
-
-
-
-
-quantium@ubuntu /home/quantium-rock/solana-mint/keypair.json
-===========================================================================
-pubkey: ANrUXjHkLTHFnBzgKJTy5atKnGMBWG9RqvCvZJrK1VPF
-===========================================================================
-Save this seed phrase and your BIP39 passphrase to recover your new keypair:
-anchor actress before milk meat fiscal change card story immense come delay
-===========================================================================
-
-local: solana-mint/keypair.json
-===========================================================================
-pubkey: ARcK7PrdebzPcbHN3yb4NrU9gsHtx8HCMZC7tRq5x1U2
-===========================================================================
-Save this seed phrase and your BIP39 passphrase to recover your new keypair:
-curious episode wall ankle cute pride pretty rent giggle arena stuff spirit
-===========================================================================
-
 create generative art metaplex (build):
 ts-node build/candy-machine-cli.js create_generative_art -n 891
 
@@ -105,9 +85,6 @@ create_candy_machine finished. candy machine pubkey: FATsaWnQQmsFN7Sbm7u7btxVSKU
 
 date=1634416980
 
-
-.env
-
 REACT_APP_CANDY_MACHINE_CONFIG=CHNSx7fEadKeYyUpw4UNM3HPQpXVR42BrMokMUCMVWrU
 REACT_APP_CANDY_MACHINE_ID=FATsaWnQQmsFN7Sbm7u7btxVSKUxKNvbkqX6MAYGAe9V
 REACT_APP_TREASURY_ADDRESS=ARcK7PrdebzPcbHN3yb4NrU9gsHtx8HCMZC7tRq5x1U2
@@ -117,8 +94,6 @@ REACT_APP_SOLANA_NETWORK=devnet
 REACT_APP_SOLANA_RPC_HOST=https://explorer-api.devnet.solana.com
 
 
-
-
 ##### LAST COMMANDS
 
 npx ts-node metaplex/js/packages/cli/src/candy-machine-cli.ts upload metaplex/js/packages/cli/assets -e testnet -k keypair.json -n 10
@@ -126,7 +101,3 @@ npx ts-node metaplex/js/packages/cli/src/candy-machine-cli.ts upload metaplex/js
 npx ts-node metaplex/js/packages/cli/src/candy-machine-cli.ts verify metaplex/js/packages/cli/assets -e testnet -k keypair.json
 
 npx ts-node metaplex/js/packages/cli/build/candy-machine-cli.js create_candy_machine -e testnet -k keypair.json -s ARcK7PrdebzPcbHN3yb4NrU9gsHtx8HCMZC7tRq5x1U2 -p 0.22
-
-
-
-fuck
